@@ -1,0 +1,352 @@
+body{
+	margin: 0px;
+}
+
+/* CCS PARA LA BARRA SUPERIOR---------------------------------------------------*/
+
+.barrasuperior{
+	background-color: #232323;
+	
+	padding: 8px 0px 8px 1250px;
+	display: block;
+
+
+}
+
+
+.barrasuperior a{
+	text-decoration: none;
+	color: white;	
+	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
+
+
+
+}
+
+.barrasuperior a:hover{
+	color: cadetblue;
+}
+
+/* CSS PARA BARRA DE NAVEGACIÓN------------------------------------------------*/
+
+header{
+	background-color: black;
+	width: 100%
+	
+
+}
+header nav{
+	text-align: center;
+	height: 50px;
+	padding: 30px 0px 0px 0;
+	
+}
+header nav a{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	margin-left: 50px;
+	font-family: 'Nunito', sans-serif;
+
+
+	
+}
+
+.Titulo{
+	margin: 0px 600px 0px 10px;
+	font-size: 20px;
+	color: white;
+
+}
+
+
+
+header nav a:hover{
+	color: cadetblue;
+}
+
+/*CSSS PARA ABOUT US------------------*/
+
+.contenedor-about{
+	
+	margin: auto;
+	margin-top: 50px;
+	height: 1500px;
+	width: 1000px;
+	box-shadow: 3px;
+	display: block;
+}
+
+.thephoto{
+	text-align: center;
+	font-size: 40px;
+	height: 50px;
+	width: 550px;
+	margin: auto;
+	padding-top: 10px;
+	font-family: 'Nunito', sans-serif;
+
+	display: block;
+}
+
+.empresa{
+	background-image: opacity:.5 url(../imagenes/about.jpg);
+	margin-top: 0px;
+	
+}
+
+.txt-thephoto{
+	 font-family: 'Lato', sans-serif;
+	 font-size: 30px;
+	 text-align: justify;
+	 padding: 10px;
+	 opacity: 1;
+
+}
+
+.empresa:hover{
+	
+}
+
+.titulo{
+	text-decoration: none;
+	color: #66CCCC;
+
+}
+
+.titulo:hover{
+	color: cadetblue;
+
+}
+
+.thephoto:hover{
+	font-size: 41px;
+
+
+}
+
+
+.sergio{
+	border: 1px solid #ccc;
+	box-shadow: 3px 3px 3px 3px  #ccc;
+	height: 300px;
+	width: 990px;
+	margin: auto;
+	margin-top: 40px;
+	display: flex;
+}
+
+.sergio-img{
+	margin: 50px 10px 50px 30px;
+	width: 300px;
+}
+
+.sergio-img:hover{
+	opacity: .9;
+}
+
+.sergio-titulo{
+	text-align: center;
+	font-size: 30px;
+	color: cadetblue;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.sergio-about{
+		font-family: 'Lato', sans-serif;
+		font-size: 20px;
+		margin:10px 10px 10px 15px;
+		text-align: justify;
+
+}
+
+
+.belha{
+	border: 1px solid #ccc;
+	box-shadow: 3px 3px 3px 3px  #ccc;
+	height: 400px;
+	width: 990px;
+	margin: auto;
+	margin-top: 40px;
+	display:flex;
+}
+
+.belha-img{
+	margin: 50px 10px 50px 30px;
+	width: 300px;
+	display: block;
+}
+
+.belha-img:hover{
+	opacity: .9;
+}
+
+.contenido-txt{
+	margin: 50px 20px 0px 15px;
+	text-align: justify;
+
+}
+
+.belha-titulo{
+	text-align: center;
+	font-size: 30px;
+	color: cadetblue;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.belha-about{
+		font-family: 'Lato', sans-serif;
+		font-size: 20px;
+		margin-bottom: 20px;
+
+}
+
+
+.adan{
+	border: 1px solid #ccc;
+	box-shadow: 3px 3px 3px 3px  #ccc;
+	height: 300px;
+	width: 990px;
+	margin: auto;
+	margin-top: 40px;
+	display: flex;
+}
+
+.adan-img{
+	margin: 50px 10px 50px 30px;
+	width: 300px;
+}
+
+.adan-img:hover{
+	opacity: .9;
+}
+
+.adan-titulo{
+	text-align: center;
+	font-size: 30px;
+	color: cadetblue;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 0px;
+
+}
+
+.adan-about{
+		font-family: 'Lato', sans-serif;
+		font-size: 20px;
+		margin-bottom: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CSS PARA FOOTER-----------------*/
+
+.footer-ti{
+	text-decoration: none;
+	color: white;
+	font-family: 'Nunito', sans-serif;
+	font-size: 28px;
+}
+
+.footer-ti:hover{
+	color: cadetblue;
+}
+
+
+.textof{
+	color: white;
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	text-align: justify;
+
+}
+
+div{
+	display: inline-block;
+}
+footer{
+	width: auto;
+	height: 350px;
+	background-color: #252525;
+	display: flex;
+	margin: 0px 0px 0px 0px;
+	
+
+
+}
+
+
+
+.about{
+	
+	height: 250px;
+	width: 500px;
+	margin:50px 0px 0px 400px;
+
+}
+
+.footer-ti2{
+	text-decoration: none;
+	color: white;
+	font-family: 'Nunito', sans-serif;
+	font-size: 28px;
+	margin-top: 0px; 
+
+}
+
+ul{
+	padding-left: 0px;
+}
+
+li{
+	padding: 0px 0px 10px 0px;
+	list-style: none;
+}
+
+.enlaces:hover{
+	color: cadetblue;
+}
+
+.enlaces{
+	color: white;
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+
+}
+
+.links{
+	margin:50px 0px 0px 0px;
+	
+	
+	height: 250px;
+	width: 500px;
+    margin: auto;
+}
+
+
+.icono{
+	color: white;
+	margin-left: 60px;
+	
+}
+
+.icono:hover{
+	color: cadetblue;
+	}
